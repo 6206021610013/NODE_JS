@@ -14,9 +14,10 @@ function downloading(url){
             }else{
                 reject("Failed")
             }
-        },3000)
+        },2000)
     })
 }
+// Promise Then
 downloading(url1)
 .then(function(result){
     console.log(result)
@@ -27,6 +28,7 @@ downloading(url1)
 }).then(function(result){
     console.log(result)
 })
+//  Promise Hell  //
 // downloading(url1).then(function(result){
 //     console.log(result)
 //     downloading(url2).then(function(result){

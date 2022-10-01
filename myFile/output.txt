@@ -1,0 +1,3 @@
+Hello Node.js
+Hello World! This is my JS learning
+Written on Sat Oct 01 2022 18:09:13 GMT+0700 (Indochina Time)
